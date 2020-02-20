@@ -1,0 +1,44 @@
+İSTANBUL MEDENİYET ÜNİVERSİTESİ
+BİLGİSAYAR MÜHENDİSLİĞİ
+
+BİL 122
+
+NESNE TABANLI PROGRAMLAMA
+
+ÖDEV – 1
+
+Son Teslim Zamanı: 20.02.2020 23:59
+
+1- Bu ödevde ekrana 3 farklı şekli çizebilen bir program yazmanız beklenmektedir. Ana program içinde
+kullanıcıdan istediği şekli seçmesini isteyecek [1: Düz Üçgen, 2: Ters Üçgen, 3: Elmas, 0: Çıkış] ve sonrasında o
+şeklin boyutunu kullanıcıdan bekleyeceksiniz. Sadece geçerli boyut verileri için çizim yapılmalıdır.
+2- Bu programdaki void duzUcgen(int deger) fonksiyonu ekrana yıldızlardan oluşan bir üçgen yazar. Fonksiyon
+sadece [3, 15] aralığındaki tek sayılarda çalışır. Kullanıcı geçerli bir değer girmezse 3 kez geçerli değer
+istenilmelidir. 3 İstek sonunda yine geçerli değer girilmezse programdan çıkılmalıdır. Bu fonksiyonda sadece
+for döngüsü kullanabilirsiniz.
+Boyut: 9 Boyut: 5 Boyut: 3
+
+3- Bu programdaki void tersUcgen(int deger) fonksiyonu ekrana yıldızlardan oluşan ters bir üçgen yazar.
+Fonksiyon sadece [3, 15] aralığındaki tek sayılarda çalışır. Kullanıcı geçerli bir değer girmezse 3 kez geçerli değer
+istenilmelidir. 3 İstek sonunda yine geçerli değer girilmezse programdan çıkılmalıdır. Bu fonksiyonda sadece
+while döngüsü kullanabilirsiniz.
+
+Boyut: 9 Boyut: 5 Boyut: 3
+
+4- Bu programdaki void elmas(int deger) fonksiyonu ekrana yıldızlardan oluşan bir elmas şekli yazar. Fonksiyon
+sadece [5, 15] aralığındaki tek sayılarda çalışır. Uygun parametre gönderilmezse ekrana hiçbir şey yazdırmadan
+çıkar. Kullanıcı geçerli bir değer girmezse 3 kez geçerli değer istenilmelidir. 3 İstek sonunda yine geçerli değer
+girilmezse programdan çıkılmalıdır. Bu fonksiyonda döngü kullanamazsınız.
+
+
+Boyut: 9 Boyut: 5
+
+Önemli Not: Şekilleri çizen fonksiyonlarda sadece std::cout << “ “ (1 adet boşluk karakteri), std::cout << “*”
+ve std::cout << endl kullanabilirsiniz. Bunun dışında cout ile hiçbir şeklin çiziminde farklı bir metin veya
+karakteri ekrana bastıramazsınız.
+
+Notlar:
+1- Bu ödevde bir sınıf oluşturmanız beklenmemektedir.
+2- Kodunuzu iyi şekilde yorumlayın (comments) ve doğru şekilde girintileyin (indentation).
+3- printf vb. C programlama diline özel fonksiyonları kullanmayın.
+4- Ödevi GitHub üzerindeki kod deponuza yükledikten sonra bağlantıyı Google Classroom üzerinden göndeririz.
