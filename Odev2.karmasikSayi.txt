@@ -1,0 +1,39 @@
+İSTANBUL MEDENİYET ÜNİVERSİTESİ
+BİLGİSAYAR MÜHENDİSLİĞİ
+
+BİL 122
+
+NESNE TABANLI PROGRAMLAMA
+
+ÖDEV – 2
+
+Son Teslim Zamanı: 08.03.2020 23:59
+
+Bir karmaşık sayı (complex number) gerçel ve sanal kısmımdan oluşan bir sayıdır. a ve b sayıları gerçek sayılar ve i =
+√−1 olduğunda z karmaşık sayısı z = a + bi olarak ifade edilir.
+
+Ödevde Karmaşık sayıları ifade edebilecek bir sınıf yazınız. Sınıfta aşağıdaki üye fonksiyonlar olmalıdır:
+1. Varsayılan yapıcı (default constructor): Karmaşık sayının varsayılan değeri 0’dır.
+2. Bir tamsayıyı (int) bir karmaşık sayıya dönüştüren bir dönüştürücü yapıcı (conversion constructor).
+3. Bir reel sayıyı (double) bir karmaşık sayıya dönüştüren bir dönüştürücü yapıcı (conversion constructor).
+4. Bir metni (c++ string) bir karmaşık sayıya dönüştüren bir dönüştürücü yapıcı (conversion constructor).
+Örnek metinler: “-3+i”, “-2i”, “i”, “45 +i”, “34- 24i”, ... (işaretlerden önce ve sonra boşluk karakteri olabilir.)
+Uygun bir metin verilmezse karmaşık sayı 0 olarak oluşturulur.
+5. İki gerçek değerli parametre (a ve b) alarak bu değerlerden bir karmaşık sayı üretebilen bir yapıcı.
+6. Sanal ve gerçel değeri tutan özel veri üyelerine erişim ve onları düzenlemek için getter/setter fonksiyonlar
+7. Parametre olarak bir karmaşık sayıyı alan ve kendine ekleyen bir add üye fonksiyonu.
+8. Parametre olarak bir karmaşık sayıyı alan ve kendinden çıkartan bir subtract üye fonksiyonu.
+9. Parametre olarak bir karmaşık sayıyı alan ve kendini o sayıya bölen bir divide üye fonksiyonu.
+10. Karmaşık sayıyı ekrana bastıran bir print üye fonksiyonu.
+
+Karmaşık sayıların bir vektörünü parametre olarak alan ve verilen sayıları hepsini önce reel sonra sanal kısmına göre
+sıralayarak ekrana bastıran bir global fonksiyon yazılmalıdır. Main fonksiyon içinde tüm genel üye fonksiyonlar test
+edilmelidir.
+
+Önemli Notlar:
+1- Kodunuzu iyi şekilde yorumlayın (comments) ve doğru şekilde girintileyin (indentation).
+2- printf vb. C programlama diline özel fonksiyonları kullanmayın.
+3- Ödevi GitHub üzerindeki kod deponuza yükledikten sonra bağlantıyı Google Classroom üzerinden göndeririz.
+4- Gerekli yerlerde const ve constexpr ifadeleri kullanılmalıdır.
+5- Fonksiyonlara parametre geçişlerinde referans ile geçiş tercih edilmelidir ve bu geçiş sırasında verinin
+korunması için gerekli olan önlemler alınmalıdır.
