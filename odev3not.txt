@@ -1,0 +1,30 @@
+İSTANBUL MEDENİYET ÜNİVERSİTESİ
+BİLGİSAYAR MÜHENDİSLİĞİ
+
+BİL 122
+
+NESNE TABANLI PROGRAMLAMA
+
+ÖDEV – 3
+
+Son Teslim Zamanı: 22.03.2020 23:59
+
+Zıp zıp kurbağa bir nehri karşıdan karşıya geçmek istemektedir. Nehrin iki kenarı arasında N adet taş vardır. Kurbağa
+sadece ileri doğru ve tek bir seferde rastgele olarak 1, 2 veya 3 sonraki taşa zıplamaktadır. N adet taş verildiğinde nehrin
+bir kenarından diğer kenarına kaç farklı şekilde ulaşabileceği bulan bir program yazınız.
+
+Örneğin 1 taş varsa sadece 1 farklı yol vardır. 2 taş varsa 1+1 ve 2 olarak 2 yol vardır. 3 taş varsa 1+1+1, 1+2, 2+1 ve 3
+olarak 4 farklı yol vardır. 4 taş varsa 1+1+1+1, 1+1+2, 1+2+1, 1+3, 2+1+1, 2+2 ve 3+1 şeklinde 7 yol vardır.
+
+Programın ana hali ödevin ekinde verilmiştir. Sadece sizin doldurmanız gereken fonksiyonları yeniden yazın ve
+bilgisayarınızda test edin. Tamamlanmış kod ile birlikte, programın ekran görüntüsünü ve neden bu şekilde bir sonuç
+ile karşılaştığınızı tartıştığınız bir raporu da GitHub sayfanıza yükleyiniz.
+
+Önemli Notlar:
+1- Kodunuzu iyi şekilde yorumlayın (comments) ve doğru şekilde girintileyin (indentation).
+2- printf vb. C programlama diline özel fonksiyonları kullanmayın.
+3- Ödevi GitHub üzerindeki kod deponuza yükledikten sonra bağlantıyı Google Classroom üzerinden göndeririz.
+4- Ödevde size verilen prototiplerin dışında farklı bir prototip kullanamazsınız.
+5- Ödevde verilen koddaki kısıt ve yorumlara uyulmalıdır.
+6- Bu ödevde yardımcı fonksiyon kullanmanıza, global ve/veya statik değişkenler tanımlamanıza izin
+verilmemektedir.
