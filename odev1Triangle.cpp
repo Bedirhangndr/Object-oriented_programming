@@ -1,5 +1,5 @@
 //Bedirhan Gundoner 19120205013	
-//Bu Odevde ters-düz - elmas seklinde ucgenler yaptýk | ODEV 1 |
+//Bu Odevde ters-dÃ¼z - elmas seklinde ucgenler yaptÄ±k | ODEV 1 |
 
 #include <iostream>
 using namespace std;
@@ -9,11 +9,11 @@ void NormalTriangle(int size) {
 	int zero1 = 0, sizerp = size;
 	for (int i = 0; i < size; ++i) //
 	{
-		for (int j = 0; j <= size; ++j) //Bu döngüde girilen deger buyuklugunda bosluk býraktýk. Bir üst döngü her döndüðünde "size" degeri azalacak ve bosluk 1 azalacak.
+		for (int j = 0; j <= size; ++j) //Bu dÃ¶ngÃ¼de girilen deger buyuklugunda bosluk bÄ±raktÄ±k. Bir Ã¼st dÃ¶ngÃ¼ her dÃ¶ndÃ¼ÄŸÃ¼nde "size" degeri azalacak ve bosluk 1 azalacak.
 		{
 			cout << "-";
 		}
-		for (int k = 0; k <= zero1; ++k)//Bu döngüde en basta 1 yidiz yazdik. Bir üst döngü her döndüðünde "zero" degeri 2 artacak ve yildiz 2 artacak.
+		for (int k = 0; k <= zero1; ++k)//Bu dÃ¶ngÃ¼de en basta 1 yidiz yazdik. Bir Ã¼st dÃ¶ngÃ¼ her dÃ¶ndÃ¼ÄŸÃ¼nde "zero" degeri 2 artacak ve yildiz 2 artacak.
 		{
 			cout << "*";
 		}
@@ -26,17 +26,17 @@ void NormalTriangle(int size) {
 void ReverseTriangle(int size) {
 	int i = 0, zero1 = 0, sizerp = size;
 	int bosluk = size / 2 + 1; //Bunu yapma sebebim, bir sonraki asamadaki elmas sekli icin tam olarak birbirine denk gelmeyen sekillerin birbirine denk gelmesini saglamak.
-	//büyük while dongusu icerisindeki ilk while dongusunde ki bosluk sayýsýný arttýrarak ucgeni biraz daha saga oteledim
+	//bÃ¼yÃ¼k while dongusu icerisindeki ilk while dongusunde ki bosluk sayÄ±sÄ±nÄ± arttÄ±rarak ucgeni biraz daha saga oteledim
 	while (i < size)
 	{
 		//cout << "   "; 
 		int j = 0, k = 0;
-		while (k <= bosluk)//Bu döngüde girilen deger buyuklugunda bosluk býraktýk. Bir üst döngü her döndüðünde "bosluk" degeri 1 artacak ve bosluk 1 artacak.
+		while (k <= bosluk)//Bu dÃ¶ngÃ¼de girilen deger buyuklugunda bosluk bÄ±raktÄ±k. Bir Ã¼st dÃ¶ngÃ¼ her dÃ¶ndÃ¼ÄŸÃ¼nde "bosluk" degeri 1 artacak ve bosluk 1 artacak.
 		{
 			cout << "-";
 			k++;
 		}
-		while (j < sizerp)//Bu döngüde girilen deger sayýsýnca yildiz koyduk. Bir üst döngü her döndüðünde "size" degeri 2 artacak ve bosluk 1 azalacak.
+		while (j < sizerp)//Bu dÃ¶ngÃ¼de girilen deger sayÄ±sÄ±nca yildiz koyduk. Bir Ã¼st dÃ¶ngÃ¼ her dÃ¶ndÃ¼ÄŸÃ¼nde "size" degeri 2 artacak ve bosluk 1 azalacak.
 		{
 			cout << "*";
 			j++;
@@ -44,7 +44,7 @@ void ReverseTriangle(int size) {
 		cout << endl;
 		sizerp -= 2;
 		bosluk++;
-		i += 2; //bunu yapmamýn sebebi while döngüsü size degerinin yarýsý kadar dönsün istemem.
+		i += 2; //bunu yapmamÄ±n sebebi while dÃ¶ngÃ¼sÃ¼ size degerinin yarÄ±sÄ± kadar dÃ¶nsÃ¼n istemem.
 	}
 }
 
@@ -55,7 +55,7 @@ void Diamond(int size) {
 
 int TriangleTry(int size) {
 	int i = 3;
-	while (i <= 15)//Bu dongude 3'ten baslayarak 5-7-9-11-13 seklinde 15 e kadar i yi artýracak. eger bu degererden biri size'a esit ise 1 dönecek degil ise 0 donecek
+	while (i <= 15)//Bu dongude 3'ten baslayarak 5-7-9-11-13 seklinde 15 e kadar i yi artÄ±racak. eger bu degererden biri size'a esit ise 1 dÃ¶necek degil ise 0 donecek
 	{
 		if (i == size)
 		{
@@ -65,7 +65,7 @@ int TriangleTry(int size) {
 	}
 	return 0;
 }
-int DiamondTry(int size) {//burada ise triangle fonkiyonundan farklý olarak sadece i 3 degilde 5 ten basladi
+int DiamondTry(int size) {//burada ise triangle fonkiyonundan farklÄ± olarak sadece i 3 degilde 5 ten basladi
 	int i = 5;
 	while (i <= 15)
 	{
